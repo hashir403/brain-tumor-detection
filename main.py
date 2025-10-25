@@ -1,6 +1,3 @@
-# video link :                         https://youtu.be/Fxy6WTnUIww?si=vF9-v0H-J2o9S7SV
-
-
 from google.colab import files
 
 uploaded = files.upload()
@@ -155,4 +152,5 @@ def predict_image(image_path):
     plt.show()
 
 # Example usage
+
 predict_image('/content/brain_tumor_dataset/yes/Y27.jpg')
